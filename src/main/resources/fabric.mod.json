@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "flash-of-the-afterlife",
+	"version": "${version}",
+	"name": "Flash of the Afterlife",
+	"description": "When you cheat death, you will see a flash of the afterlife and hear the tolling of bells...",
+	"authors": [
+		"Dexo"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/flash-of-the-afterlife/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.dexo.fota.FlashOfTheAfterlife"
+		],
+		"client": [
+			"net.dexo.fota.FlashOfTheAfterlifeClient"
+		],
+		"fabric-datagen": [
+			"net.dexo.fota.FlashOfTheAfterlifeDataGenerator"
+		]
+	},
+	"mixins": [
+		"flash-of-the-afterlife.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.2",
+		"minecraft": "~1.20.6",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
