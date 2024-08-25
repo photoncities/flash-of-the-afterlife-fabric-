@@ -26,7 +26,7 @@
 		]
 	},
 	"mixins": [
-		"flash-of-the-afterlife.mixins.json"
+		"fota.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.2",
