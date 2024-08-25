@@ -7,6 +7,7 @@ import net.minecraft.util.Identifier;
 
 import static net.dexo.fota.FlashOfTheAfterlife.MOD_ID;
 
+
 public class ModSounds{
 
     public static SoundEvent registerSoundEvent(String name) {
